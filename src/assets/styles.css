@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+textarea {
+    min-width: 48vw;
+    min-height: 30vh;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 16px 0px 0px;
+}
+
+.files {
+    display: flex;
+}
+
+.file {
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}

@@ -1,24 +1,18 @@
-# online-comparer
+# Json Online Comparer
 
-## Project setup
-```
-npm install
-```
+## Build docker image:
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
+docker build -t rechousa/json-online-comparer:latest .
 ```
 
-### Compiles and minifies for production
+### Run:
+
+1. Run the docker image:
+
 ```
-npm run build
+docker run -it -p 8080:80 --rm --name json-online-comparer-1 rechousa/json-online-comparer:latest
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+2. Open a web browser and navigate to:
+   http://localhost:8080/
